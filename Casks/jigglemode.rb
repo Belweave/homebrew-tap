@@ -12,7 +12,7 @@ cask "jigglemode" do
     regex(/JiggleMode[._-]v?(\d+(?:\.\d+)+(?:-rc\.\d+)?)\.dmg/i)
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Jiggle Mode.app"
   binary "#{appdir}/Jiggle Mode.app/Contents/Helpers/jigglemode"
