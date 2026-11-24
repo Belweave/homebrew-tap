@@ -27,3 +27,7 @@ Update later with `brew upgrade --cask jigglemode`. Remove with
 `brew uninstall --cask jigglemode`.
 
 Questions: hello@jigglemode.com
+
+## License
+
+The cask definitions in this repository are Apache-2.0, copyright Belweave. See [LICENSE](LICENSE). Console Cast itself, the app the cask installs, is proprietary, closed-source software from Belweave, used under the terms at <https://consolecast.app/legal/terms>.
