@@ -3,14 +3,14 @@ cask "console-cast" do
   # Bump with packaging/homebrew/update-cask.sh as soon as a release's disk images go live:
   # until the site serves the version named in ?version=, the routes give the current release.
   on_arm do
-    version "0.3.4"
-    sha256 "5c1c59a9614b38e1ba60c8af1c66c2b8db67894443c5f0c6095dfccd2198498b"
+    version "0.3.5"
+    sha256 "96e9f444816b486cb3389cd2da988c93cfd9b9c32f0258121ba79048d064cac9"
 
     url "https://consolecast.app/download/mac?version=#{version}"
   end
   on_intel do
-    version "0.3.4"
-    sha256 "9b36dab79f1ca2a5ebe202b34868aaf3214e9814091866255ee6fa0bcfa74ee3"
+    version "0.3.5"
+    sha256 "f564dde9e1c98f9bafbe7ef3a4e0fa7561b20312acc08cfc345207bcf1f5d6db"
 
     url "https://consolecast.app/download/mac-x64?version=#{version}"
   end
